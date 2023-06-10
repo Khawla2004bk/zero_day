@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() 
+{
+    int x, y, mult = x * y;
+
+    for (x = 1; x < 11; x++) 
+    {
+        for (y = 1; y < 4; y++) 
+            printf("%2d x %2d = %2d\t", y, x, mult);
+        printf("\n");
+    }
+    printf("\n");
+    for (x = 1; x < 11; x++) 
+    {
+        for (y = 4; y < 7; y++) 
+            printf("%2d x %2d = %2d\t", y, x, mult);
+        printf("\n");
+    }
+    printf("\n");
+    for (x = 1; x < 11; x++) 
+    {
+        for (y = 7; y < 10; y++) 
+            printf("%2d x %2d = %2d\t", y, x, mult);
+        printf("\n");
+    }
+    return 0;
+}
